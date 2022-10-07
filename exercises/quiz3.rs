@@ -20,6 +20,7 @@ pub struct ReportCard {
     pub grade: f32,
     pub student_name: String,
     pub student_age: u8,
+
 }
 
 impl ReportCard {
@@ -28,6 +29,8 @@ impl ReportCard {
             &self.student_name, &self.student_age, &self.grade)
     }
 }
+
+
 
 #[cfg(test)]
 mod tests {
